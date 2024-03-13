@@ -6608,7 +6608,7 @@
 }, {
   "name": "Qitmeer",
   "chain": "MEER",
-  "rpc": ["https://evm-dataseed1.meerscan.io", "https://evm-dataseed2.meerscan.io", "https://evm-dataseed3.meerscan.io", "https://evm-dataseed.meerscan.com", "https://evm-dataseed1.meerscan.com", "https://evm-dataseed2.meerscan.com", "https://qng.rpc.qitmeer.io", "https://mainnet.meerlabs.com", "https://rpc.dimai.ai", "https://rpc.woowow.io"],
+  "rpc": ["https://evm-dataseed1.meerscan.io", "https://evm-dataseed2.meerscan.io", "https://evm-dataseed3.meerscan.io", "https://evm-dataseed.meerscan.com", "https://qng.rpc.qitmeer.io", "https://mainnet.meerlabs.com", "https://rpc.dimai.ai", "https://rpc.woowow.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Qitmeer",
@@ -6624,8 +6624,13 @@
   "explorers": [{
     "name": "meerscan",
     "icon": "meer",
+    "url": "https://qng.qitmeer.io",
+    "standard": "EIP3091"
+  }, {
+    "name": "meerscan",
+    "icon": "meer",
     "url": "https://qng.meerscan.io",
-    "standard": "none"
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Firechain zkEVM",
@@ -15446,8 +15451,8 @@
   "explorers": [{
     "name": "meerscan testnet",
     "icon": "meer",
-    "url": "https://qng-testnet.meerscan.io",
-    "standard": "none"
+    "url": "https://testnet-qng.qitmeer.io",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Qitmeer Network Mixnet",
@@ -20151,7 +20156,7 @@
 }, {
   "name": "Electroneum Mainnet",
   "chain": "Electroneum",
-  "rpc": ["https://api.electroneum.com"],
+  "rpc": ["https://rpc.electroneum.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Electroneum",
@@ -24464,6 +24469,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Galadriel Testnet",
+  "chain": "Galadriel",
+  "rpc": ["https://testnet.galadriel.com"],
+  "faucets": ["https://docs.galadriel.com/faucet"],
+  "nativeCurrency": {
+    "name": "Galadriel Testnet token",
+    "symbol": "GAL",
+    "decimals": 18
+  },
+  "infoURL": "https://galadriel.com",
+  "shortName": "galadriel-testnet",
+  "chainId": 696969,
+  "networkId": 696969,
+  "explorers": [{
+    "name": "Galadriel Explorer",
+    "url": "https://explorer.galadriel.com",
+    "standard": "none"
+  }]
+}, {
   "name": "Tiltyard Mainnet Subnet",
   "chain": "TILTYARD",
   "rpc": ["https://subnets.avax.network/tiltyard/mainnet/rpc"],
@@ -25306,7 +25330,7 @@
 }, {
   "name": "Electroneum Testnet",
   "chain": "Electroneum",
-  "rpc": ["https://api.electroneum.com"],
+  "rpc": ["https://testnet-rpc.electroneum.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Electroneum",
