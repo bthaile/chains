@@ -3942,6 +3942,7 @@
   "shortName": "fraxtal",
   "chainId": 252,
   "networkId": 252,
+  "icon": "fraxtal",
   "explorers": [{
     "name": "fraxscan",
     "url": "https://fraxscan.com",
@@ -9569,6 +9570,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Doric Network",
+  "chain": "DRC",
+  "icon": "doric",
+  "rpc": ["https://mainnet.doric.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Doric Native Token",
+    "symbol": "DRC",
+    "decimals": 18
+  },
+  "infoURL": "https://doric.network",
+  "shortName": "DRC",
+  "chainId": 1717,
+  "networkId": 1717,
+  "explorers": [{
+    "name": "Doric Explorer",
+    "url": "https://explorer.doric.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Palette Chain Mainnet",
   "chain": "PLT",
   "rpc": ["https://palette-rpc.com:22000"],
@@ -9589,6 +9610,25 @@
     "url": "https://palettescan.com",
     "icon": "PLT",
     "standard": "none"
+  }]
+}, {
+  "name": "Reya Network",
+  "chain": "Reya",
+  "rpc": ["https://rpc.reya.network", "wss://ws.reya.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://reya.network",
+  "shortName": "reya",
+  "chainId": 1729,
+  "networkId": 1729,
+  "explorers": [{
+    "name": "Reya Network Explorer",
+    "url": "https://explorer.reya.network",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "PartyChain",
@@ -11707,6 +11747,7 @@
   "chainId": 2522,
   "networkId": 2522,
   "slip44": 1,
+  "icon": "fraxtal",
   "explorers": [{
     "name": "fraxscan",
     "url": "https://holesky.fraxscan.com",
@@ -11985,6 +12026,34 @@
     "chain": "eip155-5",
     "bridges": [{
       "url": "https://gateway.boba.network"
+    }]
+  }
+}, {
+  "name": "HYCHAIN",
+  "chainId": 2911,
+  "shortName": "hychain",
+  "chain": "ETH",
+  "networkId": 2911,
+  "nativeCurrency": {
+    "name": "TOPIA",
+    "symbol": "TOPIA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hychain.com/http"],
+  "faucets": [],
+  "infoURL": "https://www.hychain.com",
+  "icon": "hychain",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.hychain.com",
+    "icon": "hychain",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.hychain.com"
     }]
   }
 }, {
@@ -16022,7 +16091,7 @@
 }, {
   "name": "Orenium Testnet Protocol",
   "chain": "ORE",
-  "rpc": ["https://rpc-dev-testnet.orenium.org/", "https://rpc-testnet.orenium.org/"],
+  "rpc": ["https://rpc-dev-testnet.orenium.org/", "https://rpc-testnet.orenium.org/", "https://rpc-orc.oredex.finance", "https://testnet-rpc.oredex.finance", "https://oredex-node.oredex.finance"],
   "nativeCurrency": {
     "name": "ORENIUM",
     "symbol": "tORE",
@@ -17185,6 +17254,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "BEVM Mainnet",
+  "chain": "BEVM",
+  "rpc": ["https://rpc-mainnet-1.bevm.io/", "https://rpc-mainnet-2.bevm.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://bevm.io",
+  "shortName": "bevm",
+  "chainId": 11501,
+  "networkId": 11501,
+  "icon": "bevm",
+  "explorers": [{
+    "name": "bevm mainnet scan",
+    "url": "https://scan-mainnet.bevm.io",
+    "standard": "none"
+  }]
+}, {
   "name": "BEVM Testnet",
   "chain": "BEVM",
   "rpc": ["https://testnet.bevm.io/"],
@@ -17195,10 +17284,10 @@
     "decimals": 18
   },
   "infoURL": "https://bevm.io",
-  "shortName": "bevm",
+  "shortName": "bevm-test",
   "chainId": 11503,
   "networkId": 11503,
-  "icon": "bevmcanary",
+  "icon": "bevm",
   "explorers": [{
     "name": "bevm testnet scan",
     "url": "https://scan-testnet.bevm.io",
@@ -18898,6 +18987,32 @@
     "url": "https://blockscout.com/optimism/bedrock-alpha",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "HYCHAIN Testnet",
+  "chainId": 29112,
+  "shortName": "hychain-testnet",
+  "chain": "ETH",
+  "networkId": 29112,
+  "nativeCurrency": {
+    "name": "TOPIA",
+    "symbol": "TOPIA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.hychain.com/http"],
+  "faucets": [],
+  "infoURL": "https://www.hychain.com",
+  "icon": "hychain",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://testnet.explorer.hychain.com",
+    "icon": "hychain",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-58008",
+    "bridges": []
+  }
 }, {
   "name": "MCH Verse Mainnet",
   "chain": "MCH Verse",

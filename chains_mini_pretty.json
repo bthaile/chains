@@ -6018,6 +6018,19 @@
   "faucets": ["https://faucet.blockchain.or.th"],
   "infoURL": "https://blockchain.or.th"
 }, {
+  "name": "Doric Network",
+  "chainId": 1717,
+  "shortName": "DRC",
+  "networkId": 1717,
+  "nativeCurrency": {
+    "name": "Doric Native Token",
+    "symbol": "DRC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.doric.network"],
+  "faucets": [],
+  "infoURL": "https://doric.network"
+}, {
   "name": "Palette Chain Mainnet",
   "chainId": 1718,
   "shortName": "PCM",
@@ -6030,6 +6043,19 @@
   "rpc": ["https://palette-rpc.com:22000"],
   "faucets": [],
   "infoURL": "https://hashpalette.com/"
+}, {
+  "name": "Reya Network",
+  "chainId": 1729,
+  "shortName": "reya",
+  "networkId": 1729,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.reya.network", "wss://ws.reya.network"],
+  "faucets": [],
+  "infoURL": "https://reya.network"
 }, {
   "name": "PartyChain",
   "chainId": 1773,
@@ -7512,6 +7538,19 @@
   "rpc": ["https://goerli.boba.network/", "wss://wss.goerli.boba.network/"],
   "faucets": [],
   "infoURL": "https://boba.network"
+}, {
+  "name": "HYCHAIN",
+  "chainId": 2911,
+  "shortName": "hychain",
+  "networkId": 2911,
+  "nativeCurrency": {
+    "name": "TOPIA",
+    "symbol": "TOPIA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.hychain.com/http"],
+  "faucets": [],
+  "infoURL": "https://www.hychain.com"
 }, {
   "name": "Xenon Chain Testnet",
   "chainId": 2941,
@@ -10044,7 +10083,7 @@
     "symbol": "tORE",
     "decimals": 18
   },
-  "rpc": ["https://rpc-dev-testnet.orenium.org/", "https://rpc-testnet.orenium.org/"],
+  "rpc": ["https://rpc-dev-testnet.orenium.org/", "https://rpc-testnet.orenium.org/", "https://rpc-orc.oredex.finance", "https://testnet-rpc.oredex.finance", "https://oredex-node.oredex.finance"],
   "faucets": ["https://faucetcoin.orenium.org"],
   "infoURL": "https://orenium.org"
 }, {
@@ -10776,9 +10815,22 @@
   "faucets": [],
   "infoURL": "https://shyft.network"
 }, {
+  "name": "BEVM Mainnet",
+  "chainId": 11501,
+  "shortName": "bevm",
+  "networkId": 11501,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet-1.bevm.io/", "https://rpc-mainnet-2.bevm.io/"],
+  "faucets": [],
+  "infoURL": "https://bevm.io"
+}, {
   "name": "BEVM Testnet",
   "chainId": 11503,
-  "shortName": "bevm",
+  "shortName": "bevm-test",
   "networkId": 11503,
   "nativeCurrency": {
     "name": "BTC",
@@ -11828,6 +11880,19 @@
   "rpc": ["https://alpha-1-replica-0.bedrock-goerli.optimism.io", "https://alpha-1-replica-1.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io", "https://alpha-1-replica-2.bedrock-goerli.optimism.io"],
   "faucets": [],
   "infoURL": "https://community.optimism.io/docs/developers/bedrock"
+}, {
+  "name": "HYCHAIN Testnet",
+  "chainId": 29112,
+  "shortName": "hychain-testnet",
+  "networkId": 29112,
+  "nativeCurrency": {
+    "name": "TOPIA",
+    "symbol": "TOPIA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.hychain.com/http"],
+  "faucets": [],
+  "infoURL": "https://www.hychain.com"
 }, {
   "name": "MCH Verse Mainnet",
   "chainId": 29548,
