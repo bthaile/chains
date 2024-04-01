@@ -1847,6 +1847,14 @@
     "format": "png"
   }]
 }, {
+  "name": "oex",
+  "icons": [{
+    "url": "ipfs://bafkreidnu6p6vmmplerzvkboq7fz73ygkomzpnnokuxstrqv2fvxgmgg7i",
+    "width": 512,
+    "height": 512,
+    "format": "png"
+  }]
+}, {
   "name": "kardiachain",
   "icons": [{
     "url": "ipfs://QmXoHaZXJevc59GuzEgBhwRSH6kio1agMRvL8bD93pARRV",
@@ -3092,6 +3100,14 @@
     "url": "ipfs://QmbT52cCx4h1rcz6nXGfUPFdRyw1VfFMU8kKpY7YCtvUjs",
     "width": 500,
     "height": 500,
+    "format": "png"
+  }]
+}, {
+  "name": "zillion",
+  "icons": [{
+    "url": "ipfs://QmfVmjLNiBh8KyCr9mwDZh34aEhhQ2LAjuP87DFxhfd9nn",
+    "width": 264,
+    "height": 264,
     "format": "png"
   }]
 }, {

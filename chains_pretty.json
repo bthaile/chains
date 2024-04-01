@@ -14625,6 +14625,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "BounceBit Testnet",
+  "chain": "BounceBit",
+  "rpc": ["https://fullnode-testnet.bouncebitapi.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BounceBit",
+    "symbol": "BB",
+    "decimals": 18
+  },
+  "infoURL": "https://bouncebit.io",
+  "shortName": "bouncebit-testnet",
+  "chainId": 6000,
+  "networkId": 6000,
+  "explorers": [{
+    "name": "BBScan Testnet Explorer",
+    "url": "https://bbscan.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Tres Testnet",
   "chain": "TresLeches",
   "rpc": ["https://rpc-test.tresleches.finance/"],
@@ -15523,6 +15542,29 @@
     "icon": "ore",
     "url": "https://oreniumscan.org",
     "standard": "none"
+  }]
+}, {
+  "name": "OpenEX LONG Testnet",
+  "title": "OpenEX LONG Testnet",
+  "chain": "OEX",
+  "icon": "oex",
+  "rpc": ["https://long.rpc.openex.network/"],
+  "faucets": ["https://long.hub.openex.network/faucet"],
+  "nativeCurrency": {
+    "name": "USDT Testnet",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "infoURL": "https://openex.network",
+  "shortName": "oex",
+  "chainId": 7798,
+  "networkId": 7798,
+  "slip44": 1,
+  "explorers": [{
+    "name": "OpenEX Long Testnet Explorer",
+    "url": "https://scan.long.openex.network",
+    "icon": "oex",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "MaalChain Testnet",
@@ -24302,6 +24344,33 @@
   "chainId": 281121,
   "networkId": 281121,
   "explorers": []
+}, {
+  "name": "Zillion Sepolia Testnet",
+  "status": "active",
+  "chain": "ETH",
+  "rpc": ["https://sepolia.zillnet.io/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zillnet.io",
+  "shortName": "zillsep",
+  "chainId": 282828,
+  "networkId": 282828,
+  "slip44": 1,
+  "icon": "zillion",
+  "explorers": [{
+    "name": "zillscout",
+    "url": "https://sepolia.zillnet.io",
+    "icon": "zillion",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
 }, {
   "name": "Filecoin - Calibration testnet",
   "chain": "FIL",
